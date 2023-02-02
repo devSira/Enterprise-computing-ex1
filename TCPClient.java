@@ -32,7 +32,7 @@ class TCPClient {
                     num2 = Integer.parseInt(input2);
                     outToServer.writeByte(num2);
                     sum = inFromServer.read();
-                    System.out.println("FINAL SUM: " + sum);
+                    System.out.println("The result is " + sum);
                 }
             }
         }
